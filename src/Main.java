@@ -6,7 +6,7 @@ public class Main {
         System.out.println(englishName.getFullName());
         System.out.println(chineseName.getFullName());
 
-        System.out.println(Factorial.calculate("10")
+        // System.out.println(Factorial.calculate("10")
         System.out.println(Factorial.calculate(0));
         System.out.println(Factorial.calculate(-1));
         System.out.println(Factorial.calculate(1));

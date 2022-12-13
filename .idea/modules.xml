@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/java-debugging-workshop.iml" filepath="$PROJECT_DIR$/java-debugging-workshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/debugging-workshop.iml" filepath="$PROJECT_DIR$/debugging-workshop.iml" />
     </modules>
   </component>
 </project>

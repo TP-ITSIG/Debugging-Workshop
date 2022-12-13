@@ -1,5 +1,5 @@
 public class StackTraceExample {
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		AnotherClass.firstCall();
 	}
 

@@ -1,19 +1,21 @@
 public class StackTraceExample {
 	public static void main(String[] args) {
-		AnotherClass.firstCall();
+		System.out.println("Code beings executing");
+		secondMethod();
 	}
 
-	public static void divideZero() {
-		int i = 0 / 0;
+	public static void secondMethod() {
+		OtherClass.thirdMethod();
 	}
 }
 
-class AnotherClass {
-	public static void firstCall() {
-		secondCall();
+class OtherClass {
+	public static void thirdMethod() {
+		divideByZero();
 	}
 
-	public static void secondCall() {
-		StackTraceExample.divideZero();
+	public static void divideByZero() {
+		int i = 0 / 0;
+		System.out.println(i);
 	}
 }

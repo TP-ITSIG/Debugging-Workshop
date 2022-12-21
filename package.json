@@ -4,7 +4,7 @@
 	"author": "zS1L3NT <zechariahtan144@gmail.com> (https://www.zectan.com)",
 	"scripts": {
 		"example-1": "node src/1-compile-errors/unknown-variable.js",
-		"example-1:java": "java src/1-compile-errors/unknown-variable.java",
+		"example-1:java": "java src/1-compile-errors/UnknownVariable.java",
 		"example-2": "node src/2-error-logs/stack-trace.js",
 		"example-3": "node src/3-debugger/debug.js",
 		"example-4": "jest"

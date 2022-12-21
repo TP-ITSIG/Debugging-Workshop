@@ -1,4 +1,4 @@
-import factorial from "./factorial.js"
+import factorial from "./factorial"
 
 test("Positive numbers", () => {
 	expect(factorial(3)).toBe(6);
